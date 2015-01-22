@@ -1,0 +1,42 @@
+1. HTML
+
+1.1 Opšte odrednice
+
+U direktorijumu "domaci-pupin" kreirati HTML dokumente za sve tekstove iz direktorijuma "tekstovi". 
+HTML dokument za tekst "početna.txt" nazvati "index.html", ostale po želji.
+Sav tekst označiti adekvatnim HTML oznakama.
+
+1.2 Navigacija i podnožje
+
+U "početna.txt" pored sadržaja stranice nalazi se i predložak za navigaciju i podnožje koji se ponavljaju na svakoj stranici. Iskoristiti ovaj predložak za označavanje i dodati ga i ostalim stranicama.
+
+1.3 Grupisanje sadržaja
+
+Sav sadržaj treba grupisati u <div> element kojem dajemo indentifikaciju "wrapper".
+Navigaciju i ceo sadržaj bočnog dela stranice smestiti u <aside> element.
+Glavni sadržaj stranice smestiti u <div> element kojem dajemo indetifikaciju "sadrzaj".
+Sadržaj podnožja smestiti u <footer> element.
+
+
+2. CSS
+
+Napraviti CSS fajl za stilizaciju u direktorijumu "css". Nazvati fajl po želji.
+
+Pozadina celog dokumenta je u sivoj boji (gray).
+
+"Wprapper" stilizovati sa okvirom debljine 5px. Dodati mu pozadinsku boju #E4E6B8. Margine podesiti tako da gornja i donja budu 0, a bočne automatske. Širina mu je 960px.
+
+Aside ima širinu 250px i padding od 25px. Dodeliti mu svojstvo plutanja u levu stranu.
+
+"Sadrzaj" treba da ima pozadinu u beloj boji (white). Veličina padding-a gore i dole je 10px,  i 25px levo i desno. Takođe, i ovaj element pluta u levo. Širinu elementa izračunajte sami tako da popuni ostatak prostora koji je ostao unutar "wrapper"-a.
+
+Footer ima padding sa svih strana od 10px, i gornju ivicu širine 2px. Da bi se footer prikazao valjano treba uspostaviti ponovo normalni tok dokumenta.
+
+Sve slike imaju okvir od 1px i široke su 250px. Slike u "sadrzaj" treba da plutaju u desno.
+
+
+3. Napomene
+
+Zabranjeno je premeštati dokumenta.
+Zabranjeno je koristiti inline i interni CSS, već samo koristiti spoljni CSS.
+Konsultujte snimke ekrana da vidite da li ste na pravom putu. Stranice trebaju da izgledaju identično kao na slikama ekrana.
